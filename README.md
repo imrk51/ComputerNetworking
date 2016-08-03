@@ -1,2 +1,2 @@
 # ComputerNetworking
-Programs there in to implement computer Networking stuffs
+Programs to implement computer Networking stuffs
