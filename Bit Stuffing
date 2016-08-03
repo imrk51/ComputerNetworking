@@ -1,0 +1,29 @@
+// Program for Bit stuffing using C
+// Author Rahul Kr
+// 08-03-2016
+
+#include <stdio.h>
+void main()
+{
+  int i=0, count=0;
+  char bit[100];
+
+  // Prompt for input from the user
+  printf("Enter the bit you need to stuff\n");
+  scanf("%s", &a);
+  
+  // Printing the stuffed bit
+  printf("\nThe stuffed bit is: \n");
+  for (i=0; bit[i]; i++) 
+  {
+    if (bit[i]==1)
+      count++
+    else
+      count=0
+      printf("%c",a[i]);
+    if (count==5)
+      printf(" 0 ");
+  }
+  
+  getch();
+}
